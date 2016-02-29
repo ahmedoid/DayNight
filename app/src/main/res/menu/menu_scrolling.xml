@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ahmeds.daynight.ScrollingActivity">
+    <item
+        android:id="@+id/action_day_night_no"
+        android:orderInCategory="100"
+        android:title="نهار"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_day_night_yes"
+        android:orderInCategory="100"
+        android:title="ليل"
+        app:showAsAction="never" />
+</menu>
